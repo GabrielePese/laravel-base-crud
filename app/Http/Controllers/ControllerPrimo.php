@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class ControllerPrimo extends Controller{
  public function index(){
-    
+    $txt = "Tabella Paganti: ";
     $paganti = ModelPrimo::all();
-    return view ('home' , compact('paganti'));
+    return view ('home' , compact('txt','paganti'));
  }
 }

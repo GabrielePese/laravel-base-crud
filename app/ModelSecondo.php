@@ -4,10 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ModelPrimo extends Model
-{
-    
-protected $table = "paganti";
+class ModelSecondo extends Model{
+
+protected $table = "ospiti";
 
 }
 
